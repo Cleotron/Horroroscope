@@ -12,8 +12,19 @@ public class MyBot{
         Twitter twitter = TwitterFactory.getSingleton();
 
         //send a tweet
-        Status status = twitter.updateStatus("Welcome to Horroroscope. I know your fate.");
+        String [] allSigns = new String {"Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"};
+        String [] allVerbs = new String {"hit", "awarded", "smashed", "drowned", "crowned", "stabbed" };
+        String [] allCompl = new String {"with pigeonpoop", "by a furious monkey", "by a lovely kitty"};
 
+        while(true){
+          for(String sign: allSigns){
+            String verb = (allVerbs[new Random().nextInt(allVerbs.length)]);
+            String complement = (allCompl[new Random().nextInt(allCompl.length)]);
+            Status status = twitter.updateStatus("Dear " + sign + "today you will be " + verb + complement);
+            Thread.sleep(60*60*1000);
+          }
+          Thread.sleep(12*60*60*1000);
+        }
         //print a message so we know when it finishes
         System.out.println("Done.");
     }
