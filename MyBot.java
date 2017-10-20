@@ -1,6 +1,6 @@
 //Comandos
-//compilar: javac -cp twitter4j-core-4.0.4.jar MyBot.java
-//run: java -cp "twitter4j-core-4.0.4.jar;." MyBot
+//compilar: javac -cp twitter4j-core-4.0.2.jar MyBot.java
+//run: java -cp "twitter4j-core-4.0.2.jar;." MyBot
 
 
 import twitter4j.Status;
