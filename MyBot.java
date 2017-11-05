@@ -35,7 +35,6 @@ public class MyBot {
 		String complement = (allCompl[new Random().nextInt(allCompl.length)]);
 		twitter.updateStatus("Dear " + sign + ", today you will " + verb + complement);
 		System.out.println("Done.");
-		Thread.sleep(60 * 60 * 1000);
 
 	}
 
