@@ -28,7 +28,7 @@ public class MyBot {
 				" by your neighbour", " by a mutant bee", " by a hungry koala", " by a crossed eyed spider",
 				" by Son Goku", " with a potato peeler", " by your coworker", " in the dumpster", " under the sea",
 				" in the subway", " by a cab driver", " in a family meeting", " by a haunted doll", " in some basement",
-				" with a letter opener", " by a Teletubbie", " on TV", " in a reality show", " by aliens", " by a smurf", " by a blue flamingo", " by a crazy cat lady", " by an alien virus", " by a psycho killer granny", " by Hitler’s ghost", " by a bored butcher", " by an internet troll" , " by a writer’s ego", " by a jealous drag queen", " by a men’s rights activist", " by some depressed poet", " by an unemployed flea tamer", " by a sexy clown", " by a voiceless opera singer", " by a chair impersonator" };
+				" with a letter opener", " by a Teletubbie", " on TV", " in a reality show", " by aliens", " by a smurf", " by a blue flamingo", " by a crazy cat lady", " by an alien virus", " by a psycho killer granny", " by Hitler's ghost", " by a bored butcher", " by an internet troll" , " by a writer's ego", " by a jealous drag queen", " by a men's rights activist", " by some depressed poet", " by an unemployed flea tamer", " by a sexy clown", " by a voiceless opera singer", " by a chair impersonator" };
 
 		String sign = args[0];
 		String verb = (allVerbs[new Random().nextInt(allVerbs.length)]);
